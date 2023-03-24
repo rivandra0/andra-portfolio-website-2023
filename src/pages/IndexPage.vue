@@ -33,12 +33,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style>
-
-strong{
-  background: linear-gradient(to right, rgb(0, 72, 90) , rgb(141, 241, 141));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-</style>

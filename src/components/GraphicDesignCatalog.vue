@@ -73,73 +73,73 @@ const designs = [
     no: 0,
     name: 'Dotcom Open Recruitment Poster',
     year: 2020,
-    url: '../assets/graphic-design/18_dotcomPoster.jpg'
+    url: '/graphic-design/18_dotcomPoster.jpg'
   },
   {
     no: 1,
     name: 'Van Deventeer Maas Indonesia Scholarship Socialization Poster',
     year: 2020,
-    url: '../assets/graphic-design/17_vdmi3.jpg'
+    url: '/graphic-design/17_vdmi3.jpg'
   },
   {
     no: 2,
     name: 'Poster Task',
     year: 2020,
-    url: '../assets/graphic-design/13_neoTugasPoster.jpeg'
+    url: '/graphic-design/13_neoTugasPoster.jpeg'
   },
   {
     no: 3,
     name: 'Personal Drawing (Girl with beautiful hair holding her Cat)',
     year: 2022,
-    url: '../assets/graphic-design/11_personalDrawing5.jpg'
+    url: '/graphic-design/11_personalDrawing5.jpg'
   },
   {
     no: 4,
     name: "Personal Drawing (My sillouhette when I'm hungry)",
     year: 2019,
-    url: '../assets/graphic-design/10_personalDrawing4.jpg'
+    url: '/graphic-design/10_personalDrawing4.jpg'
   },
   {
     no: 5,
     name: "Personal Drawing (My Potrait, I'm basically just 'ngeJiplak')",
     year: 2020,
-    url: '../assets/graphic-design/09_personalDrawing3.jpg'
+    url: '/graphic-design/09_personalDrawing3.jpg'
   },
   {
     no: 6,
     name: 'Personal Drawing (Random young guy)',
     year: 2021,
-    url: '../assets/graphic-design/08_personalDrawing2.jpg'
+    url: '/graphic-design/08_personalDrawing2.jpg'
   },
   {
     no: 7,
     name: 'Personal Drawing (idk, i made it years ago)',
     year: 2019,
-    url: '../assets/graphic-design/07_personalDrawing.jpg'
+    url: '/graphic-design/07_personalDrawing.jpg'
   },
   {
     no: 8,
     name: 'Personal Drawing (Social Distancing)',
     year: 2020,
-    url: '../assets/graphic-design/06_socialDistancing.jpg'
+    url: '/graphic-design/06_socialDistancing.jpg'
   },
   {
     no: 9,
     name: 'Personal Drawing (Poster Contest)',
     year: 2020,
-    url: '../assets/graphic-design/05_posterContest.jpg'
+    url: '/graphic-design/05_posterContest.jpg'
   },
   {
     no: 10,
     name: 'AOT Meme',
     year: 2020,
-    url: '../assets/graphic-design/04_meme2.jpg'
+    url: '/graphic-design/04_meme2.jpg'
   },
   {
     no: 11,
     name: 'Online Class Meme',
     year: 2020,
-    url: '../assets/graphic-design/03_meme.jpg'
+    url: '/graphic-design/03_meme.jpg'
   }
 
 ]
@@ -148,7 +148,7 @@ const projects = [
   {
     name: 'Mobile UI for Industrial Engineering Lab Website',
     description: 'I have full documentation for the UI/UX, or I usually call it "Skripsi" 🤠. This is the Mobile UI',
-    pictureUrl: '../assets/project/mobile.jpeg',
+    pictureUrl: '/project/mobile.jpeg',
     github: null,
     docs: 'http://scholar.unand.ac.id/123458/',
     siteUrl: 'https://www.figma.com/proto/6heaGtJ3MTg5YU4N00PX68/PROTOTYPE-MOBILE-EXTERNAL?node-id=41%3A1219&scaling=scale-down&page-id=0%3A1&starting-point-node-id=41%3A1219'
@@ -156,7 +156,7 @@ const projects = [
   {
     name: 'Desktop UI for Industrial Engineering Lab Website',
     description: 'This is the Desktop UI, same like above ',
-    pictureUrl: '../assets/project/desktop.jpeg',
+    pictureUrl: '/project/desktop.jpeg',
     github: null,
     docs: 'http://scholar.unand.ac.id/123458/',
     siteUrl: 'https://www.figma.com/proto/ybqvBqnJ5gp4ZpsgrYBiGY/PROTOTYPE-DESKTOP-EXTERNAL?node-id=146%3A77&scaling=scale-down&page-id=0%3A1&starting-point-node-id=146%3A77'

@@ -32,7 +32,7 @@ const projects = [
   {
     name: 'Collectoria',
     description: 'Simple app to collect time data from multiple objects',
-    pictureUrl: '../assets/project/collectoria.jpeg',
+    pictureUrl: '/project/collectoria.jpeg',
     github: 'https://github.com/TuyulMohak/collectoria-frontend.git',
     docs: null,
     siteUrl: null
@@ -40,7 +40,7 @@ const projects = [
   {
     name: 'My Old Portfolio Website',
     description: 'This is my first portfolio website made using Quasar js',
-    pictureUrl: '../assets/project/old-portfolio-website.jpeg',
+    pictureUrl: '/project/old-portfolio-website.jpeg',
     github: 'https://github.com/TuyulMohak/first-portfolio-web.git',
     docs: null,
     siteUrl: 'https://andra-site.netlify.app/#/'
@@ -48,7 +48,7 @@ const projects = [
   {
     name: 'Andranote',
     description: 'Simple note app, made using Quasar js, Express js and Prisma ORM, and published on Netlify and Glitch',
-    pictureUrl: '../assets/project/andranote.jpeg',
+    pictureUrl: '/project/andranote.jpeg',
     github: 'https://github.com/TuyulMohak/andranote-frontend.git',
     docs: null,
     siteUrl: 'https://andranote.netlify.app/#/'
@@ -56,7 +56,7 @@ const projects = [
   {
     name: 'PT Geotex Prima Profil Website (Wordpress)',
     description: 'Profile website for a company',
-    pictureUrl: '../assets/project/geotexprima.png',
+    pictureUrl: '/project/geotexprima.png',
     github: null,
     docs: null,
     siteUrl: null
@@ -64,7 +64,7 @@ const projects = [
   {
     name: 'Rendang Adventure',
     description: 'A simple platformer game made for mobile. made using Godot engine',
-    pictureUrl: '../assets/project/Rendang Adventure.webp',
+    pictureUrl: '/project/Rendang Adventure.webp',
     github: null,
     docs: null,
     siteUrl: 'https://tuyulmohak1.wordpress.com/2022/01/21/first-publish/'

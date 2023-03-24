@@ -10,7 +10,7 @@
           <q-item v-for="logo in logos" :key="logo.name" clickable v-ripple >
             <q-item-section avatar>
               <q-img
-                :src="logo.url"
+                :src="logo.uri"
                 spinner-color="primary"
                 spinner-size="82px"
               />
@@ -41,23 +41,23 @@
 const logos = [
   {
     name: 'Vue JS (FE)',
-    url: '../assets/logos/vue-js-icon.png'
+    uri: 'src/assets/logos/vue-js-icon.png'
   },
   {
     name: 'Quasar JS (FE)',
-    url: '../assets/logos/quasar-logo-vertical.svg'
+    uri: 'src/assets/logos/quasar-logo-vertical.svg'
   },
   {
     name: 'Express JS (BE) *Just a little',
-    url: '../assets/logos/express-js-icon.png'
+    uri: '../assets/logos/express-js-icon.png'
   },
   {
     name: 'Prisma (ORM)',
-    url: '../assets/logos/icons8-prisma-orm-50.png'
+    uri: '../assets/logos/icons8-prisma-orm-50.png'
   },
   {
     name: 'Wordpress (CMS)',
-    url: '../assets/logos/wordpress-icon.png'
+    uri: '../assets/logos/wordpress-icon.png'
   }
 ]
 

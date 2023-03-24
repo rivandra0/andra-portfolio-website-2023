@@ -14,6 +14,7 @@
                 spinner-color="primary"
                 spinner-size="82px"
               />
+
               <!-- <q-img
                 :src="logo.uri"
                 spinner-color="primary"
@@ -42,30 +43,7 @@
 </template>
 
 <script>
-
-const logos = [
-  {
-    name: 'Vue JS (FE)',
-    uri: '~assets/logos/vue-js-icon.png'
-  },
-  {
-    name: 'Quasar JS (FE)',
-    uri: '/src/assets/logos/quasar-logo-vertical.svg'
-  },
-  {
-    name: 'Express JS (BE) *Just a little',
-    uri: '/src/assets/logos/express-js-icon.png'
-  },
-  {
-    name: 'Prisma (ORM)',
-    uri: './assets/logos/icons8-prisma-orm-50.png'
-  },
-  {
-    name: 'Wordpress (CMS)',
-    uri: '../assets/logos/wordpress-icon.png'
-  }
-]
-
+// import { ref } from 'vue'
 const ITStuff = [
   'Information System Analysis & Design',
   'UI/UX Design',
@@ -85,10 +63,44 @@ const IE = [
 export default {
   // name: 'PageName',
   setup () {
+    // const vueLogo = ref('/logos/vue-js-icon.png')
+    // const quasarLogo = ref('/logos/quasar-logo-vertical.svg')
+    // const expressLogo = ref('/logos/express-js-icon.png')
+    // const prismaLogo = ref('/logos/icons8-prisma-orm-50.png')
+    // const wordpressLogo = ref('/logos/wordpress-icon.png')
+    const logos = [
+      {
+        name: 'Vue JS (FE)',
+        uri: '/logos/vue-js-icon.png'
+      },
+      {
+        name: 'Quasar JS (FE)',
+        uri: '/logos/quasar-logo-vertical.svg'
+      },
+      {
+        name: 'Express JS (BE) *Just a little',
+        uri: '/logos/express-js-icon.png'
+      },
+      {
+        name: 'Prisma (ORM)',
+        uri: '/logos/icons8-prisma-orm-50.png'
+      },
+      {
+        name: 'Wordpress (CMS)',
+        uri: '/logos/wordpress-icon.png'
+      }
+    ]
+
     return {
       logos,
       ITStuff,
-      IE
+      IE,
+      getLogoPath (fileName) {
+        return `/assets/logos/${fileName}`
+      },
+      getProjectPath (fileName) {
+        return `/assets/project/${fileName}`
+      }
     }
   }
 }

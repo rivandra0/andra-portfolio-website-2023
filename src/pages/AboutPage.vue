@@ -29,7 +29,7 @@
           <br><br>
           <div class="text-bold">If you need to improve a system or create a user-friendly web app, feel free to contact me.</div>
         </div>
-        <a href=""><q-btn class="q-mb-xl" outline color="positive" icon="download" label="Download CV"/></a>
+        <q-btn class="q-mb-xl" outline color="positive" icon="download" label="Download CV" href="https://drive.google.com/file/d/18GVTAIuyr6hM-zmLBp8iYHtfeEBi7o_V/view?usp=drivesdk" target="_blank"/>
       </div>
       <div class="col-4 items-center gt-xs">
         <q-img

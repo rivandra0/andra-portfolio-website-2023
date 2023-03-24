@@ -34,7 +34,7 @@
       <div class="col-4 items-center gt-xs">
         <q-img
           style="width:200px"
-          src="src/assets/faces/00_real-one.png"
+          src="../assets/faces/00_real-one.png"
           :ratio="2/3"
           spinner-color="primary"
           spinner-size="82px"

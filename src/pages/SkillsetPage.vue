@@ -41,23 +41,23 @@
 const logos = [
   {
     name: 'Vue JS (FE)',
-    url: 'src/assets/logos/vue-js-icon.png'
+    url: '../assets/logos/vue-js-icon.png'
   },
   {
     name: 'Quasar JS (FE)',
-    url: 'src/assets/logos/quasar-logo-vertical.svg'
+    url: '../assets/logos/quasar-logo-vertical.svg'
   },
   {
     name: 'Express JS (BE) *Just a little',
-    url: 'src/assets/logos/express-js-icon.png'
+    url: '../assets/logos/express-js-icon.png'
   },
   {
     name: 'Prisma (ORM)',
-    url: 'src/assets/logos/icons8-prisma-orm-50.png'
+    url: '../assets/logos/icons8-prisma-orm-50.png'
   },
   {
     name: 'Wordpress (CMS)',
-    url: 'src/assets/logos/wordpress-icon.png'
+    url: '../assets/logos/wordpress-icon.png'
   }
 ]
 

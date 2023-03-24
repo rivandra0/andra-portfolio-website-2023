@@ -14,6 +14,11 @@
                 spinner-color="primary"
                 spinner-size="82px"
               />
+              <!-- <q-img
+                :src="logo.uri"
+                spinner-color="primary"
+                spinner-size="82px"
+              /> -->
             </q-item-section>
             <q-item-section>{{logo.name}}</q-item-section>
           </q-item>
@@ -41,19 +46,19 @@
 const logos = [
   {
     name: 'Vue JS (FE)',
-    uri: 'src/assets/logos/vue-js-icon.png'
+    uri: '~assets/logos/vue-js-icon.png'
   },
   {
     name: 'Quasar JS (FE)',
-    uri: 'src/assets/logos/quasar-logo-vertical.svg'
+    uri: '/src/assets/logos/quasar-logo-vertical.svg'
   },
   {
     name: 'Express JS (BE) *Just a little',
-    uri: '../assets/logos/express-js-icon.png'
+    uri: '/src/assets/logos/express-js-icon.png'
   },
   {
     name: 'Prisma (ORM)',
-    uri: '../assets/logos/icons8-prisma-orm-50.png'
+    uri: './assets/logos/icons8-prisma-orm-50.png'
   },
   {
     name: 'Wordpress (CMS)',

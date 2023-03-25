@@ -27,7 +27,7 @@
       bordered
 
     >
-      <q-list class="q-pa-md">
+      <q-list class="q-pa-md text-grey-9">
         <q-item v-for="menu in menus" :key="menu.label" :to="menu.target" class="text-h4 text-left" active-class="active" clickable ripple exact>
           <q-item-section>
             <q-item-label >{{menu.label}}</q-item-label>

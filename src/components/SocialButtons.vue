@@ -1,5 +1,16 @@
 <template>
-  <div>My component</div>
+  <div class="q-mt-xl">
+    <div class="q-pa-sm">Or contact me via my social media: </div>
+    <a href="https://www.linkedin.com/in/muhammad-rivandra-620277202?originalSubdomain=id" target="_blank">
+      <q-btn class="q-mr-md" round outline color="primary" icon="mdi-linkedin" @click="onClick"/>
+    </a>
+    <a href="https://www.instagram.com/rivandram/?hl=en" target="_blank">
+      <q-btn class="q-mr-md" round outline color="red" icon="mdi-instagram" @click="onClick" />
+    </a>
+    <a href="https://github.com/TuyulMohak" target="_blank">
+      <q-btn round outline color="black" icon="mdi-github" @click="onClick" />
+    </a>
+  </div>
 </template>
 
 <script>
@@ -10,3 +21,9 @@ export default {
   }
 }
 </script>
+
+<style>
+a{
+  text-decoration: none;
+}
+</style>

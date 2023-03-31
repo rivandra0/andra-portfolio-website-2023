@@ -22,7 +22,7 @@
       </div>
 
         <div class="text-p q-mb-md q-py-md q-pr-sm">
-          <div class="text-bold">I just got my Bachelor degree in <strong>Industrial Engineering</strong> from <strong>Andalas University</strong> in March 2023, and I've been learning <strong>web development</strong> since late 2020.</div>
+          <div class="text-bold">Hello! I am a recent graduate in <strong>Industrial Engineering</strong> from <strong>Andalas University</strong> who has been passionately learning <strong>web development</strong> since late 2020. I have a strong understanding of various web development technologies and methodologies, and I am excited to apply my skills and knowledge to create exceptional web applications.</div>
           <br>
           I believe nobody should suffer, feel confused, or, even worse, feel stupid while using a product, whether it's a website, mobile app, or any physical product around.
           In my four years of study as an industrial engineer, I learned how to make a system efficient, effective, productive, and user-friendly. I apply that everywhere I go. I am always thinking of ways to make things faster, easier, and cheaper.

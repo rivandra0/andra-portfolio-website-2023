@@ -4,7 +4,7 @@
       <div class="col-md-6 col-sm-6 col-xs-11 text-left q-px-lg q-gutter-sm">
         <div class="text-h2">IT'S ME, <br><strong class="text-h1">Andra</strong></div>
         <div class="text-h5 text-grey-10">I make fast and light website 🌠</div>
-        <div class="text-p q-mb-xl text-green-9"><i> Web Developer </i> <strong class="text-h4">🕸️🕷</strong> & <i> Industrial Engineer</i> <strong class="text-h4">🏭👷‍♂️</strong></div>
+        <div class="text-p q-mb-xl text-green-9"><i> Web Developer </i> <bold >🕸️🕷</bold> & <i> Industrial Engineer</i> <bold >👷‍♂️</bold></div>
         <MenuListHorizontal/>
         <SocialButtons/>
       </div>

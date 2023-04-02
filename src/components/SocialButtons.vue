@@ -1,15 +1,19 @@
 <template>
   <div class="q-my-xl">
-    <div class="q-pa-sm q-gutter-x-sm">Or contact me via my social media: </div>
-    <q-btn
-      v-for="data in socialData"
-      :key="data.url"
-      :icon="data.icon"
-      :href="data.url"
-      :color="data.color"
-      target="_blank"
-      size="md"
-    />
+    <div class="q-pa-sm">Or contact me via my social media: </div>
+    <div class="q-gutter-x-md">
+      <q-btn
+        outline
+        round
+        v-for="data in socialData"
+        :key="data.url"
+        :icon="data.icon"
+        :href="data.url"
+        :color="data.color"
+        target="_blank"
+        size="md"
+      />
+    </div>
   </div>
 </template>
 

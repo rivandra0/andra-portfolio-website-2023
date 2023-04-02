@@ -56,8 +56,9 @@ const IE = [
   'Product Design & Development',
   'Quality Control',
   'Industrial Statistics',
-  'Optimizing things ...',
-  'Basically the skills every Industrial Engineer should Have'
+  'System Optimization',
+  'Marketing Management',
+  'Forecasting'
 ]
 
 export default {

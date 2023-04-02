@@ -38,6 +38,14 @@ const projects = [
     siteUrl: null
   },
   {
+    name: 'University Management System Database Design',
+    description: 'Made using ERD. The ERD includes entities such as students, courses, faculty, and their respective relationships such as enrollment, advising, and teaching.',
+    pictureUrl: '/project/erd-sms.png',
+    github: null,
+    docs: 'https://drive.google.com/file/d/1hzq82Kqtqb9StF1-i4bXWhKHoj_wPcwt/view?usp=share_link',
+    siteUrl: null
+  },
+  {
     name: 'My Old Portfolio Website',
     description: 'This is my first portfolio website made using Quasar js',
     pictureUrl: '/project/old-portfolio-website.jpeg',

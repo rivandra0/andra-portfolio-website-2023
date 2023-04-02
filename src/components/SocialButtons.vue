@@ -10,6 +10,9 @@
     <a href="https://github.com/TuyulMohak" target="_blank">
       <q-btn round outline color="black" icon="mdi-github" size="md"/>
     </a>
+    <a href="rivandra0@gmail.com" target="_blank">
+      <q-btn round outline color="primary" icon="mdi-email-outline" size="md"/>
+    </a>
   </div>
 </template>
 

@@ -14,13 +14,13 @@
           </q-item-label>
           <q-item clickable v-ripple>
             <q-item-section avatar>
-              <q-icon color="positive" name="map" />
+              <q-icon style="color: var(--dark-green);" name="map" />
             </q-item-section>
             <q-item-section>Jambi City, Indonesia</q-item-section>
           </q-item>
           <q-item clickable v-ripple>
             <q-item-section avatar>
-              <q-icon color="positive" name="email" />
+              <q-icon style="color: var(--dark-green);" name="email" />
             </q-item-section>
             <q-item-section>rivandra0@gmail.com</q-item-section>
           </q-item>

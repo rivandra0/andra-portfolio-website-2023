@@ -8,7 +8,7 @@
         arrows
         autoplay
         v-model:fullscreen="fullscreen"
-        class="bg-green-5"
+        style="background-color:var(--light-green)"
         height="70vh"
       >
         <q-carousel-slide class="row justify-center items-center" v-for="design in designs" :key="design.url" :name="design.no" >
@@ -55,9 +55,8 @@
         </div>
         <div class="row justify-end">
             <q-btn-group push>
-              <q-btn target="_blank" icon="mdi-file-document-outline" label="Docs" :disable="project.docs === null" :href="project.docs"/>
-              <q-btn target="_blank" icon="mdi-github" label="Github" :disable="project.github === null" :href="project.github"/>
-              <q-btn target="_blank" icon="mdi-arrow-right" color="green-7" label="Visit site" :disable="project.siteUrl === null" :href="project.siteUrl" />
+              <q-btn target="_blank" icon="mdi-file-document-outline" label="Docs" v-if="project.docs !== null" :href="project.docs"/>
+              <q-btn target="_blank" icon="mdi-arrow-right" class="text-white" style="background-color: var(--dark-green);" label="Visit site" v-if="project.siteUrl !== null" :href="project.siteUrl" />
             </q-btn-group>
         </div>
       </q-item>
@@ -89,57 +88,45 @@ const designs = [
   },
   {
     no: 3,
-    name: 'Personal Drawing (Girl with beautiful hair holding her Cat)',
+    name: 'Personal Drawing: Girl with beautiful hair holding her Cat',
     year: 2022,
     url: '/graphic-design/11_personalDrawing5.jpg'
   },
   {
     no: 4,
-    name: "Personal Drawing (My sillouhette when I'm hungry)",
+    name: 'Personal Drawing: sillouhette',
     year: 2019,
     url: '/graphic-design/10_personalDrawing4.jpg'
   },
   {
     no: 5,
-    name: "Personal Drawing (My Potrait, I'm basically just 'ngeJiplak')",
+    name: 'Personal Drawing: My Potrait',
     year: 2020,
     url: '/graphic-design/09_personalDrawing3.jpg'
   },
   {
     no: 6,
-    name: 'Personal Drawing (Random young guy)',
+    name: 'Personal Drawing: young guy',
     year: 2021,
     url: '/graphic-design/08_personalDrawing2.jpg'
   },
   {
     no: 7,
-    name: 'Personal Drawing (idk, i made it years ago)',
+    name: 'Personal Drawing: no-name',
     year: 2019,
     url: '/graphic-design/07_personalDrawing.jpg'
   },
   {
     no: 8,
-    name: 'Personal Drawing (Social Distancing)',
+    name: 'Personal Drawing: Social Distancing',
     year: 2020,
     url: '/graphic-design/06_socialDistancing.jpg'
   },
   {
     no: 9,
-    name: 'Personal Drawing (Poster Contest)',
+    name: 'Personal Drawing: Poster Contest',
     year: 2020,
     url: '/graphic-design/05_posterContest.jpg'
-  },
-  {
-    no: 10,
-    name: 'AOT Meme',
-    year: 2020,
-    url: '/graphic-design/04_meme2.jpg'
-  },
-  {
-    no: 11,
-    name: 'Online Class Meme',
-    year: 2020,
-    url: '/graphic-design/03_meme.jpg'
   }
 
 ]
@@ -147,17 +134,15 @@ const designs = [
 const projects = [
   {
     name: 'Mobile UI for Industrial Engineering Lab Website',
-    description: 'I have full documentation for the UI/UX, or I usually call it "Skripsi" 🤠. This is the Mobile UI',
+    description: '',
     pictureUrl: '/project/mobile.jpeg',
-    github: null,
     docs: 'http://scholar.unand.ac.id/123458/',
     siteUrl: 'https://www.figma.com/proto/6heaGtJ3MTg5YU4N00PX68/PROTOTYPE-MOBILE-EXTERNAL?node-id=41%3A1219&scaling=scale-down&page-id=0%3A1&starting-point-node-id=41%3A1219'
   },
   {
     name: 'Desktop UI for Industrial Engineering Lab Website',
-    description: 'This is the Desktop UI, same like above ',
+    description: '',
     pictureUrl: '/project/desktop.jpeg',
-    github: null,
     docs: 'http://scholar.unand.ac.id/123458/',
     siteUrl: 'https://www.figma.com/proto/ybqvBqnJ5gp4ZpsgrYBiGY/PROTOTYPE-DESKTOP-EXTERNAL?node-id=146%3A77&scaling=scale-down&page-id=0%3A1&starting-point-node-id=146%3A77'
   }

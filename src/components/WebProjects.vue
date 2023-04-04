@@ -21,7 +21,7 @@
             <q-btn v-if="project.docs !== null" target="_blank" icon="mdi-file-document-outline" label="Docs" :href="project.docs"/>
             <q-btn v-if="project.githubFe !== null" target="_blank" icon="mdi-github" label="FE" :href="project.githubFe"/>
             <q-btn v-if="project.githubBe !== null" target="_blank" icon="mdi-github" label="BE" :href="project.githubBe"/>
-            <q-btn v-if="project.siteUrl !== null" target="_blank" icon="mdi-arrow-right" color="green-7" label="Visit site" :href="project.siteUrl"/>
+            <q-btn v-if="project.siteUrl !== null" target="_blank" icon="mdi-arrow-right" class="text-white" style="background-color: var(--dark-green);" label="Visit site" :href="project.siteUrl"/>
           </q-btn-group>
       </div>
     </q-item>

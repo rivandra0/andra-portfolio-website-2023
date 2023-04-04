@@ -1,9 +1,8 @@
 <template>
   <q-page padding>
-    <section class="row justify-start text-left q-px-xl q-pb-xl" style="height:85vh">
-      <div class="col-12 row text-h2">
-        Skill Set
-      </div>
+    <section class="row justify-start text-left q-pa-lg q-pb-xl">
+      <div class="gt-xs col-12 row text-h2 active">Skill Set</div>
+      <div class="lt-sm col-12 row text-h3 active">Skill Set</div>
       <div class="col-12 row">
         <q-list class="col-md-4 col-sm-4 col-xs-10 q-my-md">
           <div class="text-h6"><strong>Web Development</strong></div>
@@ -14,12 +13,6 @@
                 spinner-color="primary"
                 spinner-size="82px"
               />
-
-              <!-- <q-img
-                :src="logo.uri"
-                spinner-color="primary"
-                spinner-size="82px"
-              /> -->
             </q-item-section>
             <q-item-section>{{logo.name}}</q-item-section>
           </q-item>
@@ -79,7 +72,7 @@ export default {
         uri: '/logos/quasar-logo-vertical.svg'
       },
       {
-        name: 'Express JS (BE) *Just a little',
+        name: 'Express JS (BE)',
         uri: '/logos/express-js-icon.png'
       },
       {

@@ -1,33 +1,46 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header class="bg-white">
-      <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          size="xl"
-          color="black"
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
-        />
+  <q-layout view="lHh Lpr lff">
+    <q-header bordered class="q-px-md row items-center bg-white">
+      <q-toolbar class="col-12 row items-center">
 
-        <q-toolbar-title class="text-black">
-          Muhammad Rivandra
-        </q-toolbar-title>
-
-        <!-- <div>Quasar v{{ $q.version }}</div> -->
+        <div class="col row item-center">
+          <q-item clickable to="/">
+            <q-avatar rounded size="35px" font-size="35px" >
+              <q-img
+                src="icons\android-chrome-192x192.png"
+              />
+            </q-avatar>
+          </q-item>
+        </div>
+        <div class="col row justify-end">
+          <q-btn
+            flat
+            dense
+            round
+            color="black"
+            icon="menu"
+            size="xl"
+            aria-label="Menu"
+            @click="toggleLeftDrawer"
+            class="lt-sm col-4 self-end"
+          />
+        </div>
+        <MenuListHorizontal class="gt-xs"/>
       </q-toolbar>
     </q-header>
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
-
     >
       <q-list class="q-pa-md text-grey-9">
+        <q-item>
+          <q-avatar rounded size="35px" font-size="35px" >
+            <q-img
+              src="icons\android-chrome-192x192.png"
+            />
+          </q-avatar>
+        </q-item>
         <q-item v-for="menu in menus" :key="menu.label" :to="menu.target" class="text-h4 text-left" active-class="active" clickable ripple exact>
           <q-item-section>
             <q-item-label >{{menu.label}}</q-item-label>
@@ -39,11 +52,16 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
+    <q-footer class="text-white text-right row bg-transparent justify-end">
+      <div class="absolute-bottom-right bg-green-1 col-md-4 col-sm-6 col-xs-11 text-grey-8" style="border-radius:15px 0 0 0">© 2023 Muhammad Rivandra, All rights reserved.</div>
+    </q-footer>
   </q-layout>
 </template>
 
 <script>
 import { defineComponent, ref } from 'vue'
+import MenuListHorizontal from 'components/MenuListHorizontal.vue'
 
 const menus = [
   {
@@ -77,7 +95,7 @@ export default defineComponent({
   name: 'MainLayout',
 
   components: {
-
+    MenuListHorizontal
   },
 
   setup () {
@@ -98,8 +116,5 @@ export default defineComponent({
 body{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
-.active{
-  color: rgb(0, 139, 19);
-  text-decoration: underline;
-}
+
 </style>

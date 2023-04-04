@@ -1,10 +1,9 @@
 <template>
   <q-page padding>
-    <section class="row justify-start items-start text-left q-px-xl" style="height:85vh">
+    <section class="row justify-start items-start text-left q-pa-lg">
       <div class="col-xs-11 col-sm-6 col-md-6 q-mr-xl">
-        <div class="text-h2 q-mb-md">
-          About Me
-        </div>
+        <div class="gt-xs text-h2 q-mb-md active">About Me</div>
+        <div class="lt-sm text-h3 q-mb-md active">About Me</div>
 
         <div class="col-4 items-center lt-sm">
         <q-img

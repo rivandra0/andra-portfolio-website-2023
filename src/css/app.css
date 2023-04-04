@@ -1,11 +1,24 @@
 /* app global css */
+:root {
+  --dark-green: rgb(0, 72, 90);
+  --light-green:  rgb(79, 201, 79);
+}
+
 
 .bg-transparent {
   background-color: rgba(0, 0, 0, 0);
 }
 
 strong{
-  background: linear-gradient(to right, rgb(0, 72, 90) , rgb(79, 201, 79));
+  background: linear-gradient(to right, var(--dark-green) , var(--light-green));
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.active{
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: var(--light-green);;
 }

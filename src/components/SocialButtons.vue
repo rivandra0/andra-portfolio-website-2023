@@ -1,7 +1,7 @@
 <template>
-  <div class="q-my-xl">
-    <div class="q-pa-sm">Or contact me via my social media: </div>
-    <div class="q-gutter-x-md">
+  <div>
+    <div class="q-pt-md q-pb-sm">Connect with me via my social media: </div>
+    <div class="q-gutter-x-xs">
       <q-btn
         outline
         round
@@ -22,7 +22,7 @@
 const socialData = [
   {
     icon: 'mdi-linkedin',
-    url: 'https://www.linkedin.com/in/muhammad-rivandra-620277202?originalSubdomain=id',
+    url: 'https://www.linkedin.com/in/muhammad-rivandra-ie-frontend/',
     color: 'primary'
   },
   {

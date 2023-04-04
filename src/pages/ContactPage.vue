@@ -1,9 +1,8 @@
 <template>
   <q-page padding>
-    <section class="row justify-start items-start text-left q-px-xl" style="height:85vh">
-      <div class="col-12 row text-h2">
-        Contact
-      </div>
+    <section class="row justify-start items-start text-left q-pa-lg">
+      <div class="gt-xs col-12 row text-h2 active">Contact</div>
+      <div class="lt-sm col-12 row text-h3 active">Contact</div>
 
       <div class="col-12 row">
         <div class="col-md-6 col-sm-6 col-xs-10 q-py-md">

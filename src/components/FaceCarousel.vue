@@ -75,7 +75,7 @@ export default {
 }
 
 .hanging-right-top{
-  right: 20%;
+  right: 25%;
   top: 10%;
 }
 

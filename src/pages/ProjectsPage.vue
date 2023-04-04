@@ -10,9 +10,7 @@
         <WebProjects/>
       </div>
       <div class="col-md-4 col-sm-12 col-xs-11">
-        <div class="row text-h5 text-bold q-pb-md q-pt-xl">
-          Graphic Design
-        </div>
+        <div class="row text-h5 text-bold q-pb-md q-pt-xl">Graphic Design</div>
         <GraphicDesignCatalog/>
       </div>
     </section>

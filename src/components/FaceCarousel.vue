@@ -20,18 +20,22 @@
         src="logos\vue-js-icon.png"
         class="hanging-icon hanging-left-bottom"
         :width="iconSize"
-      />
+      >
+        <q-tooltip :offset="[10, 10]">Quasar Js</q-tooltip>
+      </q-img>
       <q-img
         src="logos\quasar-logo-vertical.svg"
         class="hanging-icon hanging-right-top"
         :width="iconSize"
-      />
+      >
+        <q-tooltip :offset="[10, 10]">Quasar Js</q-tooltip>
+      </q-img>
       <q-img
         src="logos\pinia-logo.svg"
         class="hanging-icon hanging-right-bottom"
         :width="iconSize"
       >
-      <q-tooltip :offset="[10, 10]">Tooltip text</q-tooltip>
+      <q-tooltip :offset="[10, 10]">Pinia</q-tooltip>
       </q-img>
     </div>
 </template>

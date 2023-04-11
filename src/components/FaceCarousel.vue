@@ -21,7 +21,7 @@
         class="hanging-icon hanging-left-bottom"
         :width="iconSize"
       >
-        <q-tooltip :offset="[10, 10]">Quasar Js</q-tooltip>
+        <q-tooltip :offset="[10, 10]">Vue Js</q-tooltip>
       </q-img>
       <q-img
         src="logos\quasar-logo-vertical.svg"

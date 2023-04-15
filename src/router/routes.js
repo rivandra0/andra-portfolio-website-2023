@@ -20,7 +20,7 @@ const routes = [
     component: () => import('pages/ErrorNotFound.vue')
   },
   {
-    path: '*',
+    path: '/*',
     component: () => import('pages/IndexPage.vue')
   }
 ]

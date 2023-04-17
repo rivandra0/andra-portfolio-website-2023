@@ -7,7 +7,7 @@
       <div class="col-md-7 col-sm-6 col-xs-12 text-left q-px-md q-gutter-sm">
         <div class="text-subtitle2">It's me, Andra</div>
         <div class="gt-xs text-h2 text-bold text-grey-10">Delivering <strong>Cool</strong> websites with <strong>Vue.js</strong></div>
-        <div class="lt-sm text-h4 text-bold text-grey-10">Delivering <strong>Lightning-fast</strong> websites with Vue.js</div>
+        <div class="lt-sm text-h4 text-bold text-grey-10">Delivering <strong>Cool</strong> websites with <strong>Vue.js</strong></div>
         <div class="text-subtitle1 text-green-9">Front-end Web Developer, UX Generalist & Industrial Engineer</div>
         <SocialButtons/>
       </div>

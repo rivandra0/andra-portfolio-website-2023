@@ -76,6 +76,10 @@ export default {
         uri: '/logos/nuxt.png'
       },
       {
+        name: 'Supabase (BE)',
+        uri: '/logos/supabase.png'
+      },
+      {
         name: 'Express JS (BE)',
         uri: '/logos/express-js-icon.png'
       },

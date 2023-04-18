@@ -31,6 +31,15 @@
 <script>
 const projects = [
   {
+    name: 'UPTD Logam Disperindag Sumbar',
+    description: 'I had the opportunity to develop a CMS website using Quasar JS and Supabase for a UPTD Logam Disperindag Sumatera Barat. Throughout the development process, I learned valuable skills such as handling files, routing, and implementing basic authentication. Although the website has yet to be published, I am grateful for the experience and the knowledge I gained in web development. I look forward to applying what I learned in future projects.',
+    pictureUrl: 'project/uptd_logam.png',
+    githubFe: null,
+    githubBe: null,
+    docs: null,
+    siteUrl: null
+  },
+  {
     name: 'Dotcom Organization Profile Website',
     description: "I've created a clean and modern profile website for Dotcom, our Student IT organization within the Industrial Engineering department. The site is built entirely using Quasar JS and showcases our organization's mission, members, and projects. With a responsive design and intuitive navigation, it provides a seamless user experience for visitors looking to learn more about our organization. I also designed the new Logo",
     pictureUrl: '/project/dotcom.png',

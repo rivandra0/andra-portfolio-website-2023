@@ -71,7 +71,7 @@ const designs = [
   {
     no: 0,
     name: 'Dotcom Open Recruitment Poster',
-    year: 2020,
+    year: 2023,
     url: '/graphic-design/18_dotcomPoster.jpg'
   },
   {

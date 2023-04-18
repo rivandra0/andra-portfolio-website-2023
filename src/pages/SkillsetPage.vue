@@ -72,6 +72,10 @@ export default {
         uri: '/logos/quasar-logo-vertical.svg'
       },
       {
+        name: 'Nuxt (FE)',
+        uri: '/logos/nuxt.png.png'
+      },
+      {
         name: 'Express JS (BE)',
         uri: '/logos/express-js-icon.png'
       },

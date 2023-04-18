@@ -73,7 +73,7 @@ export default {
       },
       {
         name: 'Nuxt (FE)',
-        uri: '/logos/nuxt.png.png'
+        uri: '/logos/nuxt.png'
       },
       {
         name: 'Express JS (BE)',

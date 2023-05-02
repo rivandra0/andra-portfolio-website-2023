@@ -32,6 +32,15 @@
 const projects = [
   {
     name: 'UPTD Logam Disperindag Sumbar',
+    description: "I created muaracoder.com to share the latest information on web development and IT, using Nuxt 3 with Tailwind CSS for the design. I implemented Nuxt's SSR and added internalization using the i18n module. Check it out and let me know what you think!",
+    pictureUrl: 'Logo_complete_MuaraCoder',
+    githubFe: null,
+    githubBe: null,
+    docs: null,
+    siteUrl: 'https://muaracoder.com'
+  },
+  {
+    name: 'UPTD Logam Disperindag Sumbar',
     description: 'I had the opportunity to develop a CMS website using Quasar JS and Supabase for a UPTD Logam Disperindag Sumatera Barat. Throughout the development process, I learned valuable skills such as handling files, routing, and implementing basic authentication. Although the website has yet to be published, I am grateful for the experience and the knowledge I gained in web development. I look forward to applying what I learned in future projects.',
     pictureUrl: 'project/uptd_logam.png',
     githubFe: null,

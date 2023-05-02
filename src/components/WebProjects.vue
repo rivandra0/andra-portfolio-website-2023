@@ -33,7 +33,7 @@ const projects = [
   {
     name: 'MuaraCoder Website',
     description: "I created muaracoder.com to share the latest information on web development and IT, using Nuxt 3 with Tailwind CSS for the design. I implemented Nuxt's SSR and added internalization using the i18n module. Check it out and let me know what you think!",
-    pictureUrl: 'project/Logo_complete_MuaraCoder',
+    pictureUrl: 'project/Logo_complete_MuaraCoder.png',
     githubFe: null,
     githubBe: null,
     docs: null,

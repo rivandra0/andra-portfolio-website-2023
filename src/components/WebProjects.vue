@@ -31,6 +31,15 @@
 <script>
 const projects = [
   {
+    name: 'Scoring System with React',
+    description: "This app is an early version of my scoring system that I believe will be useful for my organization's open recruitment. We can add players, add events, and add rounds for each event, where we can give a score to each round for each player.",
+    pictureUrl: 'project/react-scoring-system.png',
+    githubFe: 'https://github.com/TuyulMohak/scoring-system-react',
+    githubBe: null,
+    docs: null,
+    siteUrl: 'https://react-scoring-system.netlify.app'
+  },
+  {
     name: 'MuaraCoder Website',
     description: "I created muaracoder.com to share the latest information on web development and IT, using Nuxt 3 with Tailwind CSS for the design. I implemented Nuxt's SSR and added internalization using the i18n module. Check it out and let me know what you think!",
     pictureUrl: 'project/Logo_complete_MuaraCoder.png',

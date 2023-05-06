@@ -21,21 +21,21 @@
         class="hanging-icon hanging-left-bottom"
         :width="iconSize"
       >
-        <q-tooltip :offset="[10, 10]">Vue Js</q-tooltip>
+        <q-tooltip :offset="[10, 10]">Vue</q-tooltip>
       </q-img>
       <q-img
-        src="logos\quasar-logo-vertical.svg"
+        src="logos\nuxt.png"
         class="hanging-icon hanging-right-top"
         :width="iconSize"
       >
-        <q-tooltip :offset="[10, 10]">Quasar Js</q-tooltip>
+        <q-tooltip :offset="[10, 10]">Nuxt</q-tooltip>
       </q-img>
       <q-img
-        src="logos\pinia-logo.svg"
+        src="logos\React.webp"
         class="hanging-icon hanging-right-bottom"
         :width="iconSize"
       >
-      <q-tooltip :offset="[10, 10]">Pinia</q-tooltip>
+      <q-tooltip :offset="[10, 10]">React</q-tooltip>
       </q-img>
     </div>
 </template>

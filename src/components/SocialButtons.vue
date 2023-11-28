@@ -32,7 +32,7 @@ const socialData = [
   },
   {
     icon: 'mdi-github',
-    url: 'https://github.com/TuyulMohak',
+    url: 'https://github.com/rivandra0',
     color: 'black'
   },
   {

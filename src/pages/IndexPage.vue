@@ -8,7 +8,7 @@
         <div class="text-subtitle2">It's me, Andra</div>
         <div class="gt-xs text-h2 text-bold text-grey-10">Delivering <strong>Cool</strong> websites with <strong>Vue & React</strong></div>
         <div class="lt-sm text-h4 text-bold text-grey-10">Delivering <strong>Cool</strong> websites with <strong>Vue & React</strong></div>
-        <div class="text-subtitle1 text-green-9">Front-end Web Developer, UX Generalist & Industrial Engineer</div>
+        <div class="text-subtitle1 text-green-9">Web Developer & Industrial Engineer</div>
         <SocialButtons/>
       </div>
       <div class="gt-xs col-5 col-md-5 col-sm-6 col-xs-11 row">

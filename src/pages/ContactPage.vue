@@ -16,7 +16,7 @@
             <q-item-section avatar>
               <q-icon style="color: var(--dark-green);" name="map" />
             </q-item-section>
-            <q-item-section>Jambi City, Indonesia</q-item-section>
+            <q-item-section>Batam City, Riau Island, Indonesia</q-item-section>
           </q-item>
           <q-item clickable v-ripple>
             <q-item-section avatar>

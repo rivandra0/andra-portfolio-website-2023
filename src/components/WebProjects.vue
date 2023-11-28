@@ -55,7 +55,7 @@ const projects = [
     githubFe: null,
     githubBe: null,
     docs: null,
-    siteUrl: null
+    siteUrl: 'https://uptd-logam-sumbar.netlify.app/#/'
   },
   {
     name: 'Dotcom Organization Profile Website',
@@ -101,34 +101,16 @@ const projects = [
     githubBe: null,
     docs: null,
     siteUrl: 'https://andra-site.netlify.app/#/'
-  },
-  {
-    name: 'University Management System Database Design',
-    description: 'Made using ERD. The ERD includes entities such as students, courses, faculty, and their respective relationships such as enrollment, advising, and teaching.',
-    pictureUrl: '/project/erd-sms.png',
-    githubFe: null,
-    githubBe: null,
-    docs: 'https://drive.google.com/file/d/1hzq82Kqtqb9StF1-i4bXWhKHoj_wPcwt/view?usp=share_link',
-    siteUrl: null
-  },
-  {
-    name: 'PT Geotex Prima Profil Website (Wordpress)',
-    description: "I built the Geotexprima company profile using Elementor and WordPress. The site showcases the company's construction supply products in a modern and professional design. It's an essential resource for those in the construction industry to easily explore Geotexprima's services and company information.",
-    pictureUrl: '/project/geotexprima.png',
-    githubFe: null,
-    githubBe: null,
-    docs: null,
-    siteUrl: null
-  },
-  {
-    name: 'Rendang Adventure',
-    description: 'A simple platformer game made for mobile. made using Godot engine',
-    pictureUrl: '/project/Rendang Adventure.webp',
-    githubFe: null,
-    githubBe: null,
-    docs: null,
-    siteUrl: 'https://tuyulmohak1.wordpress.com/2022/01/21/first-publish/'
   }
+  // {
+  //   name: 'Rendang Adventure',
+  //   description: 'A simple platformer game made for mobile. made using Godot engine',
+  //   pictureUrl: '/project/Rendang Adventure.webp',
+  //   githubFe: null,
+  //   githubBe: null,
+  //   docs: null,
+  //   siteUrl: 'https://tuyulmohak1.wordpress.com/2022/01/21/first-publish/'
+  // }
 ]
 
 export default {
